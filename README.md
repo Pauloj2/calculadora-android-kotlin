@@ -1,44 +1,46 @@
-# 📱 Calculadora Android em Kotlin
+# 📱 Android Calculator in Kotlin
 
 ---
 
-## 📌 Sobre o projeto
+## 📌 About the Project
 
-Este projeto consiste no desenvolvimento de uma calculadora funcional para Android, criada no Android Studio, utilizando:
+This project consists of developing a functional calculator for Android, built in Android Studio using:
 
-- **XML** para construção da interface
-- **Kotlin** para implementação da lógica
+- **XML** for interface construction
+- **Kotlin** for logic implementation
 
-A aplicação permite realizar operações matemáticas básicas e também inclui funções científicas, além de tratamento de erros para garantir maior robustez do sistema.
+The application allows basic mathematical operations and also includes scientific functions, along with error handling to ensure greater system robustness.
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/df1e5c0f-1dba-4d98-a83f-705882d054c5" width="300">
 </p>
 
-## 🎯 Objetivo
+---
 
-O objetivo do projeto é desenvolver uma calculadora com:
+## 🎯 Objective
 
-- Interface organizada e intuitiva
-- Operações matemáticas básicas
-- Funções científicas
-- Tratamento de erros
-- Boa experiência de usuário (UX/UI)
+The goal of the project is to develop a calculator with:
+
+- Organized and intuitive interface
+- Basic mathematical operations
+- Scientific functions
+- Error handling
+- Good user experience (UX/UI)
 
 ---
 
-## 🧮 Funcionalidades
+## 🧮 Features
 
-### Operações básicas
+### Basic Operations
 
-A calculadora realiza as quatro operações fundamentais:
+The calculator performs the four fundamental operations:
 
-- ➕ Soma
-- ➖ Subtração
-- ✖️ Multiplicação
-- ➗ Divisão
+- ➕ Addition
+- ➖ Subtraction
+- ✖️ Multiplication
+- ➗ Division
 
-**Exemplo:**
-
+**Example:**
 ```
 7 + 3 = 10
 9 - 4 = 5
@@ -48,20 +50,19 @@ A calculadora realiza as quatro operações fundamentais:
 
 ---
 
-### 🔬 Funções científicas
+### 🔬 Scientific Functions
 
-A aplicação também conta com funções matemáticas adicionais:
+The application also includes additional mathematical functions:
 
-| Função | Descrição   |
-|--------|-------------|
-| `sin`  | Seno        |
-| `cos`  | Cosseno     |
-| `tan`  | Tangente    |
-| `log`  | Logaritmo   |
-| `^`    | Potência    |
+| Function | Description    |
+|----------|----------------|
+| `sin`    | Sine           |
+| `cos`    | Cosine         |
+| `tan`    | Tangent        |
+| `log`    | Logarithm      |
+| `^`      | Exponentiation |
 
-**Exemplo:**
-
+**Example:**
 ```
 sin(30) = 0.5
 cos(60) = 0.5
@@ -71,12 +72,11 @@ tan(45) ≈ 1
 
 ---
 
-### 🧠 Precedência matemática
+### 🧠 Mathematical Precedence
 
-O sistema respeita a ordem correta das operações matemáticas.
+The system respects the correct order of mathematical operations.
 
-**Exemplo:**
-
+**Example:**
 ```
 2 + 3 * 4 = 14
 (2 + 3) * 4 = 20
@@ -84,58 +84,57 @@ O sistema respeita a ordem correta das operações matemáticas.
 
 ---
 
-## ⚠️ Tratamento de erros
+## ⚠️ Error Handling
 
-Para garantir maior robustez, o aplicativo trata situações inválidas como:
+To ensure greater robustness, the app handles invalid situations such as:
 
-**Divisão por zero:**
-
+**Division by zero:**
 ```
-8 / 0 → Erro
+8 / 0 → Error
 ```
 
-> O aplicativo não fecha e informa o erro ao usuário.
+> The application does not crash and informs the user of the error.
 
-**Operadores duplicados:**
+**Duplicate operators:**
 
-O sistema impede que o usuário digite expressões como:
-
+The system prevents the user from typing expressions such as:
 ```
 5 + * 2
 ```
 
-Evitando erros de cálculo.
+Avoiding calculation errors.
 
 ---
 
 ## 🎨 Interface (UX/UI)
 
-A interface foi desenvolvida com foco em simplicidade e organização, utilizando **GridLayout** para organizar os botões.
+The interface was developed with a focus on simplicity and organization, using **GridLayout** to arrange the buttons.
 
-### Estrutura da tela
+### Screen Structure
 
-A interface possui duas áreas principais:
+The interface has two main areas:
 
-**Área superior**
-- Exibição da expressão digitada
-- Exibição do resultado
+**Upper Area**
 
-**Área inferior**
-- Teclado da calculadora organizado em grade
+- Display of the typed expression
+- Display of the result
 
-### Personalização visual
+**Lower Area**
 
-- Fundo escuro moderno
-- Cores diferentes para operadores
-- Resultado com fonte maior
-- Botões organizados em grade
+- Calculator keyboard organized in a grid
+
+### Visual Customization
+
+- Modern dark background
+- Different colors for operators
+- Result with larger font
+- Buttons organized in a grid
 
 ---
 
-## 🧩 Estrutura do projeto
-
+## 🧩 Project Structure
 ```
-CalculadoraAndroid
+CalculatorAndroid
 │
 ├── app
 │   ├── java
@@ -153,7 +152,7 @@ CalculadoraAndroid
 
 ---
 
-## ⚙️ Tecnologias utilizadas
+## ⚙️ Technologies Used
 
 - ![Android](https://img.shields.io/badge/Android_Studio-3DDC84?style=flat&logo=android-studio&logoColor=white) Android Studio
 - ![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white) Kotlin
@@ -163,27 +162,26 @@ CalculadoraAndroid
 
 ---
 
-## ▶️ Como executar o projeto
+## ▶️ How to Run the Project
 
-1. **Clone este repositório:**
-
+1. **Clone this repository:**
 ```bash
-git clone https://github.com/SEU_USUARIO/calculadora-android-kotlin.git
+git clone https://github.com/YOUR_USERNAME/calculator-android-kotlin.git
 ```
 
-2. Abra o projeto no **Android Studio**
-3. Aguarde a sincronização do **Gradle**
-4. Execute o aplicativo em um emulador ou dispositivo Android
+2. Open the project in **Android Studio**
+3. Wait for **Gradle** synchronization
+4. Run the application on an emulator or Android device
 
 ---
 
-## 👨‍💻 Autor
+## 👨‍💻 Author
 
 **Paulo Junior Rodrigues**  
-Estudante de Análise e Desenvolvimento de Sistemas
+Systems Analysis and Development Student
 
 ---
 
-## 📄 Licença
+## 📄 License
 
-Este projeto foi desenvolvido para **fins educacionais**.
+This project was developed for **educational purposes**.
